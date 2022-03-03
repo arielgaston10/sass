@@ -1,0 +1,45 @@
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: #40caa8;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center; }
+  header h1 {
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+
+footer {
+  width: 100%;
+  height: 7vh;
+  background-color: #40caa8;
+  justify-content: center; }
+  footer p {
+    text-align: center;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #3EFF99;
+  background: -webkit-radial-gradient(right, #3EFF99, #EDEDED);
+  background: -moz-radial-gradient(right, #3EFF99, #EDEDED);
+  background: radial-gradient(to left, #3EFF99, #EDEDED); }
+
+main {
+  width: 100%;
+  margin: 0 auto; }
+  main .title {
+    justify-content: baseline;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Righteous', cursive; }
+  main .article {
+    font-style: italic; }
+  main .img {
+    width: 700px;
+    height: 550px; }

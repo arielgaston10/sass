@@ -30,6 +30,7 @@ header{
     height: 20vh;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
 }
 body{
   background: #3EFF99;

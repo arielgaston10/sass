@@ -1,0 +1,33 @@
+@import "_header";
+@import "_footer";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #3EFF99;
+    background: -webkit-radial-gradient(right, #3EFF99, #EDEDED);
+    background: -moz-radial-gradient(right, #3EFF99, #EDEDED);
+    background: radial-gradient(to left, #3EFF99, #EDEDED);
+}
+main{
+    width: 100%;
+    margin: 0 auto;
+    .title{
+        justify-content: baseline;
+        font-style: italic;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Righteous', cursive;
+    }
+    .article{
+        font-style: italic;
+
+    }
+    .img{
+        width: 700px;
+        height: 550px;
+    }    
+}
+
+
