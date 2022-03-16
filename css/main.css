@@ -19,6 +19,24 @@ footer {
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
+.social {
+  background-color: #52e099;
+  width: 60px;
+  position: absolute;
+  right: 20px; }
+  .social ul {
+    list-style: none;
+    padding: 1rem;
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+    align-items: center; }
+    .social ul li a {
+      text-decoration: none;
+      font-size: 2rem; }
+    .social ul li:hover {
+      transform: scale(1.2); }
+
 * {
   margin: 0;
   padding: 0; }
@@ -43,3 +61,24 @@ main {
   main .img {
     width: 700px;
     height: 550px; }
+
+/*Creamos el bucle para usar los valores del mapa*/
+.btn--twitter {
+  background-color: #55acee;
+  font-size: 1rem;
+  padding: 0.5rem; }
+
+.btn--facebook {
+  background-color: #3a5795;
+  font-size: 1rem;
+  padding: 0.5rem; }
+
+.btn--send-mail {
+  background-color: #C25E30;
+  font-size: 1rem;
+  padding: 0.5rem; }
+
+.btn--youtube {
+  background-color: #e41c1cce;
+  font-size: 1rem;
+  padding: 0.5rem; }

@@ -1,9 +1,12 @@
 @import "_header";
 @import "_footer";
+@import "_social";
+@import "_botones";
 *{
     margin: 0;
     padding: 0;
 }
+
 body{
     background: #3EFF99;
     background: -webkit-radial-gradient(right, #3EFF99, #EDEDED);
@@ -29,5 +32,23 @@ main{
         height: 550px;
     }    
 }
+//map//
+$redes: ( /*Declaramos nuestro mapa*/
+        twitter: #55acee,
+        facebook:  #3a5795,
+        send-mail: #C25E30,
+        youtube:  #e41c1cce,
+); 
+/*Creamos el bucle para usar los valores del mapa*/
+@each $red, $color in $redes {
+   .btn--#{$red} {
+       background-color: $color;
+       font-size: 1rem;
+       padding: 0.5rem;
+   }
+
+}
+
+
 
 

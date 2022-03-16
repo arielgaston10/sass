@@ -1,0 +1,9 @@
+//map//
+
+@mixin botonMixin ($color){
+    background-color: $nombre;
+    width: 100px;
+    height: 55px;
+    border: 1px solid $nombre;
+    border-radius: 5px  ;
+}
